@@ -8,7 +8,7 @@ body {
 
 .header {
     margin: 0;
-    padding: 16px 16px;
+    padding: 16px 25%;
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
@@ -40,7 +40,7 @@ body {
 
 .hero {
     margin: 0;
-    padding: 16px 16px;
+    padding: 16px 25%;
     background-color: #1F2937;
     display: flex;
     justify-content: center;
@@ -83,6 +83,10 @@ body {
     height: auto;
 }
 
+.information {
+    padding: auto 25%;
+}
+
 .information-header {
     font-size: 36px;
     font-weight: 900;
@@ -115,7 +119,7 @@ body {
 .quote {
     background-color: #E5E7EB;
     text-align: center;
-    padding: 16px;
+    padding: 16px 25%;
     margin: 48px 0;
 }
 
@@ -137,10 +141,13 @@ body {
 
 .action {
     background-color: #3882F6;
-    padding: 12px 48px;
+    border-radius: 8px;
+    padding: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 16px 25%;
+    gap: 48px;
 }
 
 .action-header {
@@ -161,9 +168,10 @@ body {
 .action-button {
     background-color: #3882F6;
     color: #F9FAF8;
-    border-radius: 4px;
+    border-radius: 6px;
     border-color: #F9FAF8;
     font-size: 18px;
+    padding: 4px 12px;
 }
 
 .footnote {
